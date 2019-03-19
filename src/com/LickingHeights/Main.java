@@ -3,6 +3,10 @@ package com.LickingHeights;
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("guEsS wHErE iM GOiNg");
+	int pickedNumber;
+
+	pickedNumber= (int)(Math.random()*100);
+	System.out.println(pickedNumber);
+	
     }
 }
